@@ -165,11 +165,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(banner.jpg) no-repeat center;
+    background: url("/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #0000ff;
+    color: #fff;
     min-height: 500px;
     background-size: cover;
+    background-color:#0000ff;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
